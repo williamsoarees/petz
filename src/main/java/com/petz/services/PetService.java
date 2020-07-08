@@ -25,6 +25,7 @@ public class PetService {
 	@Autowired 
 	private ClienteRepository clienteRepository;
 	
+	@Autowired 
 	private ClienteService clienteService;
 	
 	@Autowired
